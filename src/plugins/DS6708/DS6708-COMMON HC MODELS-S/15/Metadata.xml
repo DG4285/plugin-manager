@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <family>DS6708</family>
+  <name text-id="1734">COMMON HC MODELS</name>
+  <description>2D Imager, Healthcare</description>
+  <firmware>NBRPUAAP</firmware>
+  <firmware-naming-style>1</firmware-naming-style>
+  <revision>015</revision>
+  <release-type>STANDARD</release-type>
+  <release-date>2/10/2012</release-date>
+  <build>1</build>
+  <plugin-schema-version>1.0000</plugin-schema-version>
+  <rsm-version>2.0</rsm-version>
+  <models>
+    <model>DS6708-HC2000BZZR</model>
+  </models>
+  <combined-firmware name="NBRPPCAP">
+    <component name="Mimic">NBRPPAAP</component>
+    <component name="Scan Engine">NBRPUAAP</component>
+  </combined-firmware>
+  <files>
+    <scanner-def>DS6708-COMMON HC MODELS-S-015.scndef</scanner-def>
+    <firmware hash="8d678f6bf0104ed635750e2e52e2105f">NBRPPCAP.DAT</firmware>
+    <picture hash="38aff64d5a30e8f994b45e2f72bd8a19">DS6708.png</picture>
+    <release-note hash="6789f58c5861baed1450e289a4ce9ee0">Release Notes-DS6708-COMMON HC MODELS-S-015.txt</release-note>
+  </files>
+  <self-hash>db1b6c7cdad95a2fb2524b02fb9ac0e2</self-hash>
+</metadata>

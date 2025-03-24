@@ -1,0 +1,183 @@
+***************************************************
+* Firmware version : SAAAJS00-007-R04
+*     DS6878 Scanner  : PAAAJS00-007-R04  - Mar   2017
+*     CR0078-S Cradle : NBCACAAR          - Oct   2015
+***************************************************
+Resolved Issues / Functionality Enhancements
+1.Fix 123scan download issue
+2.SPR #31784  Unit locked up after being connected to EMC device running Datawedge, and battery is removed and replaced
+
+
+***************************************************
+* Firmware version : SAAAJS00-007-R02
+*     DS6878 Scanner  : PAAAJS00-007-R02  - Nov   2016
+*     CR0078-S Cradle : NBCACAAR          - Oct   2015
+***************************************************
+Resolved Issues / Functionality Enhancements
+1. Add ScanToConnect support but for Windows ONLY 
+2. Fix SPR30343: Battery charging issue
+
+
+
+***************************************************
+* Firmware version : SAAAJS00-007-R00
+*     DS6878 Scanner  : PAAAJS00-007-R00  - May   2016
+*     CR0078-S Cradle : NBCACAAR          - Oct   2015
+***************************************************
+Resolved Issues / Functionality Enhancements
+
+   1) Updated Imagekit to newest version
+   2) Added Mailmark
+   3) Increased ADF buffer size to allow for larger rule sets
+
+
+***************************************************
+* Firmware version : SAAAJS00-006-R00
+*     DS6878 Scanner  : PAAAJS00-006-R00  - Oct	  2015
+*     CR0078-S Cradle : NBCACAAR          - Oct   2015
+***************************************************
+
+Resolved Issues / Functionality Enhancements
+    1) Updated imagekit with the following : 
+          a) Added Reduced Quiet Zone parameters for UPC/EAN, Code 128, Code 39 and Interleaved 2 of 5
+          b) Added Ignore Code 128 FNC4 parameter
+          c) Added Hanxin barcode decoding
+          d) Added GS1 Datamatrix and GS1 QR barcode decoding
+          e) Added Interleaved 2 of 5 Security Level
+          f) Updated OCR decoder
+     2) Changed Interleaved 2 of 5 defaults to a range of 6 to 55
+     3) Fixed issue with Continuous Barcode Scanning and the Timeout Between Different Symbols
+     4) Added Direct IO Beep commands and parameter to honor them or not
+     5) Updated IBM USB to support DL Parsing code types
+
+
+***************************************************
+* Firmware version : SAAAJS01-005-R02
+*     DS6878 Scanner  : PAAAJS00-005-R02  - Sep	  2014
+*     CR0078-S Cradle : NBCACAAQ          - Mar   2015
+***************************************************
+
+Resolved Issues / Functionality Enhancements
+
+   1) Updated internal USB descriptors to correctly report maximum current draw.  No functionality changed
+
+***************************************************
+* Firmware version : SAAAJS00-005-R02
+*     DS6878 Scanner  : PAAAJS00-005-R02  - Sep	  2014
+*     CR0078-S Cradle : NBCACAAP          - Sep   2014
+***************************************************
+
+Resolved Issues / Functionality Enhancements
+
+   1) Added GS1 Datamatrix
+   2) Added USB IBM Specification Level parameter to support newer code types ID's for USB IBM hosts
+   3) Added Fast HID with default Enabled
+   4) Changed default polling interval from 8 to 3
+
+***************************************************
+* Firmware version : SAAAJS00-005-R01
+*     DS6878 Scanner  : PAAAJS00-005-R01  - May	  2014
+*     CR0078-S Cradle : NBCACAAN          - Aug   2012
+***************************************************
+
+Resolved Issues / Functionality Enhancements
+
+   1) Added WiFi Friendly Bluetooth features
+
+***************************************************
+* Firmware version : SAAAJS00-005-R00
+*     DS6878 Scanner  : PAAAJS00-005-R00  - Dec	  2013
+*     CR0078-S Cradle : NBCACAAN          - Aug   2012
+***************************************************
+
+Resolved Issues / Functionality Enhancements
+
+   1) Updated to Imagekit_5.16T01.4, which includes the following : 
+         a) Support for new OCR-B variant to auto-detect between 2/3 line documents
+         b) Addresses issue with multicode expression decoding the wrong region
+         c) Support to select between upper and lower Codabar start/stop characters
+   2) Updated system to Bluetooth Stack 2.1
+   3) Added parameter for Apple iOS for virtual keyboards for iOS devices
+   4) Added parameter Android HID features to allow for simple pairing to Android devices
+   5) Added parameter for Secure Simple Pairing for Bluetooth SPP
+   6) Added persistent link keys so that pairing is maintained to non-cradle devices if battery power is lost.
+   7) Added Unsolicted Hearbeat feature
+
+***************************************************
+* Firmware version : SAAAJS00-004-R03
+*     DS6878 Scanner  : PAAAJS00-004-R03  - Feb	  2013
+*     CR0078-S Cradle : NBCACAAN          - Aug   2012
+***************************************************
+
+Functionality Enhancements
+
+  1) Allow GS1 Coupons to be read without enable UCC Coupon Extended Code
+  2) Fix certain characters not transmitting correctly via Bluetooth Serial Port Profile
+
+***************************************************
+* Firmware version : SAAAJS00-004-R02
+*     DS6878 Scanner  : PAAAJS00-004-R01  - May	  2012
+*     CR0078-S Cradle : NBCACAAN          - Aug   2012
+***************************************************
+
+Functionality Enhancements
+  
+  1) CDC host added
+  2) RSM Topology event messages supported
+
+***************************************************
+* Firmware version : SAAAJS00-004-R01
+*     DS6878 Scanner  : PAAAJS00-004-R01  - May	  2012
+*     CR0078-S Cradle : NBCACAAM          - March 2011
+***************************************************
+
+Functionality Enhancements
+  
+  1) Radio fix for lockup issues when Bluetooth encryption and authentication are enabled
+
+***************************************************
+* Firmware version : SAAAJS00-004-R00
+*     DS6878 Scanner  : PAAAJS00-004-R00  - January 2012
+*     CR0078-S Cradle : NBCACAAM          - March   2011
+***************************************************
+
+Functionality Enhancements
+
+  1) added new image kit version 5.14T08
+  2) Added the new low battery warning scheme 
+  3) upc/ean security level set to 1  
+  4) Added Health care factory defaults feature. GS1 limited, CCAB, CCC, Single Beep, Inverse Datamatrix parameters are enabled for Health Care models.
+
+
+***************************************************
+* Firmware version : SAAAJS00-003-R01
+*     DS6878 Scanner  : PAAAJS00-003-R01  - May	  2011
+*     CR0078-S Cradle : NBCACAAM          - March 2011
+***************************************************
+
+Initial scanner/plug-in release for 123Scan2
+
+Resolved Issues
+  1) Fixed Issues with RSM Firmware Download. 
+  2) Fixed issues with scanner not charging in USB OPOS Handheld when scanner is disabled. 
+  3) Fixed default settings for various parameters
+  4) Added missing RSM atributes 
+ 
+Functionality Enhancements
+  1) Support for Remote Scanner Management (RSM) 2.0, including the following functionality :
+
+     a) Support for parameter programming using 1D concatenated barcode(s)
+     b) Support for parameter programming using a single scan programming barcode (Datamatrix and         PDF)
+     c) From the factory, USB HID connected scanners can be automatically detected and communications established with 123Scan2   (not available in alpha version of 123scan2)
+     d) New ADF Functionality: Find replace, Move to pattern and Skip to end
+     e) Firmware upgrade using 123Scan2 and a standard USB cable 
+
+  2) Bluetooth connection is maintained when set defaults is scanned
+  3) Upon initial boot up. Scanner will boot up beep in the cradle. 
+  4) Added Micron NAND Flash support 
+
+Notes
+   1) If PDF is disabled, then PDF parameter barcodes cannot be scanned.
+   2) If Datamatrix is disabled, then Datamatrix parameter barcodes cannot be scanned.
+
+

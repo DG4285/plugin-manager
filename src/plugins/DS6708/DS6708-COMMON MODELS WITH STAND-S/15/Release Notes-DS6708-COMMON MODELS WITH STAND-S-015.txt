@@ -1,0 +1,101 @@
+***********************************************
+* Firmware version NBRFCCAC - February 2012
+***********************************************
+Functionality Enhancements / Resolved Issue
+   1) Fix for KIX Netherlands code
+   2) Enhanced decoding performance in presentation mode
+   3) Improved 123scan2 performance for firmware download
+
+***********************************************
+* Firmware version NBRFCCAB - March 2011
+***********************************************
+Functionality Enhancements / Resolved Issue
+   1)  GS1 Coupon now sent as RSS Expanded type for IBM and 
+Nixdorf Mode A and B 
+   2)  Added new codetypes support for IBM host
+   3)  Added PDF Prioritization
+   4)  Imagekit Upgrade with Aztec and ISBT Concatenation updates
+   5)  Improved Maxicode decode range and performance on long 1D barcodes, blurred 1D barcodes and Matrix barcodes.
+
+    
+
+Parameter updates
+   1) Default for Aztec Inverse changed to Autodetect
+   2) Default for Coupon Report changed to New 
+   3) Default for Decode Mirror Image changed to Autodetect
+
+***********************************************
+* Firmware version NBRFCCAA - October 2010
+***********************************************
+
+Functionality Enhancements / Resolved Issue
+   1) Added support to read barcodes on LCD displays, including cell phones  
+   2) Added Simulated Scan-Stand operation
+   6) Updated Imagekit
+   6) Fixed issues with RSM firmware update over USB 
+
+Parameter updates
+   1) Simulated Scan-Stand operation is enabled by default
+
+***********************************************
+* Firmware version NBRPPCAL - April 2010
+***********************************************
+
+Functionality Enhancements / Resolved Issue
+   1) Allow 2D parameter barcodes to be read even if PDF or Datamatrix is disabled by the user
+   2) Fixed the Configuration File name from getting changed during parameter update
+   3) Improvements to QR, Aztec and Maxicode and PDF decoding
+   4) Support for the French International keyboard added to HID and Keyboard Wedge
+   5) Fixed issue with SNAPI and Windows 7 / vista.
+   6) Fixed behavior so that if parameter barcoding scanning is disabled, the 2D parameter barcodes are disabled, too.
+
+Parameter updates
+   1) Added Trigger Mode, Fuzzy 1D and Mirror Image to plug-in
+   2) Increased ADF rule buffer size for 123scan2
+   3) Added the following parameters/features : 
+      - Image rotation
+      - Aim ID Supplementals Format
+      - Coupon Format
+      - Suppress power up beeps
+      - CDC USB Com port emulation
+      - Korean 3 of 5
+   4) RSS Limited default changed to disabled
+   5) Added parameter to disable all code types
+
+***********************************************
+* Firmware version NBRPPCAH - April 2009
+***********************************************
+
+Functionality Enhancements / Resolved Issues
+   1) Updated Imagekit including improved Aztec decoder and PDF decoder
+   2) Added code ID's on Nixdorf Mode A and B for PDF, RSS, and Code 39 Full Ascii
+   3) Fix for issues with USB Hid Keyboard, German keyboard with Caps Lock Override
+
+Parameter updates
+   1) Added Matrix 2 of 5, Canada Post and Chinese 2 of 5 symbologies
+   2) Added ISBT Concatenation
+   3) Added ISSN EAN support
+
+Notes
+   1) If PDF is disabled, then PDF parameter barcodes cannot be scanned.
+   2) If Datamatrix is disabled, then Datamatrix parameter barcodes cannot be scanned.
+
+
+***************************************************
+* Firmware version NBRPPCAG ? October 2008
+***************************************************
+
+Functionality Enhancements
+   1) Support for Remote Scanner Management (RSM) 2.0, including the following functionality :
+
+      a) Support for parameter programming using 1D concatenated barcode(s)
+      b) Support for parameter programming using a single scan programming barcode (Datamatrix and PDF)
+      c) From the factory, USB HID connected scanners can be automatically detected and communications established with 123Scan2   (not available in alpha version of 123scan2)
+      d) New ADF Functionality: Find replace, Move to pattern and Skip to end
+      e) Firmware upgrade using 123Scan2 and a standard USB cable
+
+   2) Added support for French International keyboard in USB HID Keyboard and Keyboard wedge
+
+Notes
+   1) If PDF is disabled, then PDF parameter barcodes cannot be scanned.
+   2) If Datamatrix is disabled, then Datamatrix parameter barcodes cannot be scanned.

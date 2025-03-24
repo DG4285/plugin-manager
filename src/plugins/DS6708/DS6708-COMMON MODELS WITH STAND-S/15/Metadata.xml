@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <family>DS6708</family>
+  <name text-id="1690">COMMON MODELS WITH STAND</name>
+  <description>COMMON MODELS WITH STAND</description>
+  <firmware>NBRFTAAC</firmware>
+  <firmware-naming-style>1</firmware-naming-style>
+  <revision>015</revision>
+  <release-type>STANDARD</release-type>
+  <release-date>2/10/2012</release-date>
+  <build>1</build>
+  <plugin-schema-version>1.0000</plugin-schema-version>
+  <rsm-version>2.0</rsm-version>
+  <models>
+    <model>DS6708-SR20007NSR</model>
+  </models>
+  <combined-firmware name="NBRFCCAC">
+    <component name="Mimic">NBRPPAAP</component>
+    <component name="Scan Engine">NBRFTAAC</component>
+  </combined-firmware>
+  <files>
+    <scanner-def>DS6708-COMMON MODELS WITH STAND-S-015.scndef</scanner-def>
+    <firmware hash="2019c7ba73c1ee7f4820b40a1c00d879">NBRFCCAC.DAT</firmware>
+    <picture hash="195479b587ac40ca4f45bd7568540d55">DS6708.png</picture>
+    <release-note hash="95dfcf9e83bd02c486cc0fd927a92638">Release Notes-DS6708-COMMON MODELS WITH STAND-S-015.txt</release-note>
+  </files>
+  <self-hash>f8bccc690e6d1dd3fbfae26390690568</self-hash>
+</metadata>

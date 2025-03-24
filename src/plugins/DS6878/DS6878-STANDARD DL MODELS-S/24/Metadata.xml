@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <family>DS6878</family>
+  <name text-id="1731">STANDARD DL MODELS</name>
+  <description>2D Imaging Bluetooth Scanner with standard cradle</description>
+  <firmware>PAAAWS00-007-R04</firmware>
+  <firmware-naming-style>2</firmware-naming-style>
+  <revision>024</revision>
+  <release-type>STANDARD</release-type>
+  <release-date>3/27/2017</release-date>
+  <build>1</build>
+  <plugin-schema-version>1.0000</plugin-schema-version>
+  <rsm-version>2.0</rsm-version>
+  <models>
+    <model>CR0078-SC10001WR</model>
+    <model>CR0078-SC10007WR</model>
+    <model>CR0078-SC1009BWR</model>
+    <model>DS6878-DL20001WR</model>
+    <model>DS6878-DL20007WR</model>
+    <model>STB4278-C0001WR</model>
+    <model>STB4278-C0001WW</model>
+    <model>STB4278-C0007WR</model>
+    <model>STB4278-C0007WW</model>
+  </models>
+  <combined-firmware name="SAAAWS00-007-R04">
+    <component name="DS6878 Top Level">CAAAWS00-007-R04</component>
+    <component name="DS6878 Software">PAAAWS00-007-R04</component>
+    <component name="Cradle Firmware">NBCACAAR</component>
+  </combined-firmware>
+  <files>
+    <scanner-def>DS6878-STANDARD DL MODELS-S-024.scndef</scanner-def>
+    <firmware hash="23c365884cd949303ff4d9183725c4d0">SAAAWS00-007-R04D2.DAT</firmware>
+    <picture hash="d5012592ed6bab3661d41d0dcf9c5ff8">DS6878.png</picture>
+    <release-note hash="7e14d94db944aa212c9d9ac54144166b">Release Notes-DS6878-STANDARD DL MODELS-S-024.txt</release-note>
+  </files>
+  <self-hash>eb933975e0ffaa50782ffbac8ca035f0</self-hash>
+</metadata>
